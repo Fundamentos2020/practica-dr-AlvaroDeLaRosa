@@ -1,5 +1,4 @@
 * {
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -35,17 +34,28 @@
     padding: 1em;
 }
 
+.pad2 {
+    padding: 0.5;
+}
+
 .let1 {
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .let2 {
+    text-align: center;
     font-size: small;
 }
 
 .let3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+.let4 {
+    text-align: left; 
+    color: white;
 }
 
 .flex-cont {
@@ -73,5 +83,6 @@
 }
 
 .mar1 {
+    text-align: center;
     border: solid rgb(172, 172, 172) 1px;
 }
